@@ -279,50 +279,7 @@ The betting agent pushes profit above 50% on a single deck — **beating the hou
 
 ## Setup & Usage
 
-```bash
-pip install -r requirements.txt
-```
-
-### Phase 1
-
-```bash
-# Train and test non-counting agent
-python phase1/train_non_counting.py
-
-# Train and test card counting agent
-python phase1/train_counting.py
-```
-
-### Phase 2 — Task 1
-
-```bash
-python phase2/task1/train_tabular.py
-```
-
-### Phase 2 — Task 2
-
-```bash
-# Train playing agent
-python phase2/task2/train_playing_agent.py
-
-# Train betting agent (requires trained playing agent)
-python phase2/task2/train_betting_agent.py
-
-# Run combined evaluation
-python phase2/task2/evaluate.py
-```
-
----
-
-## Requirements
-
-```
-torch
-numpy
-matplotlib
-```
-
-See `requirements.txt` for the full list.
+Run each .ipynb file and follow the menu.
 
 ---
 
