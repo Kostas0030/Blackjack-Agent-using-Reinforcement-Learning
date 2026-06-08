@@ -17,7 +17,6 @@ Blackjack agent combining tabular Q-learning and DQN with card counting and a re
   - [Task 2 — DQN Playing Agent + Regression Betting Agent](#task-2--dqn-playing-agent--regression-betting-agent)
   - [Phase 2 Results](#phase-2-results)
 - [Setup & Usage](#setup--usage)
-- [Requirements](#requirements)
 
 ---
 
